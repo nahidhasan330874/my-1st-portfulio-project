@@ -17,7 +17,7 @@ header{
     background-color: #FFF8F3;
     background-image: url(../images/developer.png) ,url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: top left,bottom right;
+    background-position: 30px 30px,bottom right;
     padding-top:50PX ;
 }
 .navber{
@@ -197,3 +197,64 @@ cursor: pointer;
     line-height: 28px;
     color: #757575;
 }
+.tex-center{
+    text-align: center;
+    margin-top: 20px;
+}
+footer{
+    margin-top: 30px;
+    background-color: #FFF8F3;
+    padding: 30px;
+
+}
+.footer-container{
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1140px;
+    display: flex;
+    gap: 120px;
+}
+.social{
+    max-width: 560px;
+
+
+}
+ .footer-container h2{
+    color: #181818;
+    margin-bottom: 20px;
+    font-size: 35px;
+ }
+ .social p {
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+
+ }
+ .icon a{
+    margin-right: 24px;
+ }
+  .from input[type ="text"]{
+    width: 460px;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 5px;
+    border-radius: 5px;
+ }
+  .from input[type ="email"]{
+    width: 460px;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 5px;
+    border-radius: 5px;
+ }
+  .from textarea{
+    width: 460px;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 5px;
+    border-radius: 5px;
+ }

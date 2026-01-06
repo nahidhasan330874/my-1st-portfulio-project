@@ -47,8 +47,24 @@ border: none;
 border-radius: 5px;
 padding: 18px 35px;
 font-size: 20px;
-cursor: pointer;
+cursor: pointer; 
+}
+.section-heading{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
 
+}
+.section-heading p{
+
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
 }
 #banner{
     /* border: 1px solid black; */
@@ -84,4 +100,63 @@ cursor: pointer;
 .banner-image img{
     max-width: 585px;
     vertical-align: middle;
+}
+#about{
+    padding-top: 130px;
+   
+
+}
+.about-container{
+       background-color: #FFF8F3;
+       border-radius: 10px;
+    width: 70%;
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 85px;
+    text-align: center;
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.info-card p{
+            font-size: 20px;
+            mrgin-bottom: 30px;
+           line-height: 30px;
+            color: #757575;
+
+}
+#skills{
+    padding-top: 130px;
+}
+.skills-container{
+    width: 70%;
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.card-box{
+    display: flex;
+    gap: 25px;
+}
+.card{
+    padding: 30px;
+    max-width: 267px;
+    box-shadow: 0 6px 50px 0 #e4e1e1;
+    border-radius: 5px;
+}
+.card img {
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.card h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #181818;
+
+}
+.card p{
+    font-size: 16px;
+    color: #757575;
+    line-height: 30px;
+
 }

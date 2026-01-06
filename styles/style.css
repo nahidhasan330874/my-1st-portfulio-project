@@ -15,6 +15,9 @@
 
 header{
     background-color: #FFF8F3;
+    background-image: url(../images/developer.png) ,url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
     padding-top:50PX ;
 }
 .navber{
@@ -44,5 +47,41 @@ border: none;
 border-radius: 5px;
 padding: 18px 35px;
 font-size: 20px;
+cursor: pointer;
 
+}
+#banner{
+    /* border: 1px solid black; */
+    margin: 50px 40px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .baner-content{
+    max-width: 550px;
+}
+#banner .baner-content h2{
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600px;
+    margin-bottom: 5px;
+
+}
+#banner .baner-content h1{
+     font-size: 85px;
+     font-weight: bold;
+     color: #181818;
+     margin-bottom: 20px;
+}
+#banner .baner-content p{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom:30px;
+    line-height: 30px;
+    
+
+}
+.banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
 }
